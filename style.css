@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;  
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1503453363464-743ee9ce1584?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcwOTA4MDIzNQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+}
+
+.caixa-geral {
+    background-color: #000;
+    opacity: 0.9;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.firstname {
+    border: none;
+    outline: none;
+    padding: 9px;
+    border-radius: 18px;
+    font-size: 18px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc(100% - 100px);
+}
+
+.botao {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #fff7f72b;
+    cursor: pointer;
+    float: right;
+}
+
+.lupa {
+   width: 20px;
+   color: #ffffff;
+}
+
+.caixa-media {
+    margin-top: 10px;
+}
+
+.cidade {
+    color: white;
+    font-size: 28px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.tempo {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 13px;
+    margin-left: 11px;
+}
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.texto-previsao {
+    margin-left: 8px;
+    text-transform: capitalize;
+}
+
+.umidade {
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 9px;
+}
